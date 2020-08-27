@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Suggestaza.com</title>
+<style>
+
+body {
+background-color: rgba(113, 150, 201, 0.3);
+}
+h3,#b1,h4 {
+text-align: center;
+}
+#f1 {
+text-align: center;
+width: auto;
+}
+#b1 {
+background-color: rgba(125, 146, 246, 0.5);
+padding-top: 1%;
+padding-bottom: 0.3%;
+padding-right: 4%;
+color: rgba(0,0,0,0.9);
+}
+input {
+padding: .4%;
+margin: 2px;
+width: 20vw;
+}
+
+input[type="radio"] {
+  margin-right: -110px;
+}
+
+input[type="submit"],input[type="reset"] {
+  width:170px;
+}
+
+footer {
+background-color: rgba(125, 146, 246, 0.6);
+margin-top: 50px;
+height: 100px;
+}
+
+footer div {
+line-height: 0.2;
+font-size: 80%;
+padding: 0 .5%;
+
+}
+
+
+ul {
+list-style-type: none;
+}
+.fa {
+
+  padding: 15px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+ }
+ 
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
+#info li {
+float: right;
+}
+</style>
+</head>
+<body>
+
+<h1 align = "center" style="background-color: rgba(125, 146, 246, 0.8); padding: 3%; margin:0"> SUGGESTAZA </h1>
+
+<div id=b1>
+<span style="padding-left: 3%">Services we offer:</span>
+<ul>
+<li>Shoe recommendations</li>
+<li>Wrist-watch recommendations</li>
+</ul>
+</div>
+
+<h4> Please fill the form to proceed </h4>
+<div id=f1>
+<form action="select" method="post">
+First name: 
+<input type="text" name="firstName">
+<br>
+Last name:  
+<input type="text" name="lastName">
+<br>
+<div style="text-align: left">
+<p style="padding-left: 36.2%">What would you like us to recommend?</p>
+<div style="padding-left: 27%">
+<input type="radio" name="category" value="Shoes" />Shoe &#128094; <br>
+<input type="radio" name="category" value="Wrist-watch" />Wrist-watch &#8986; <br>
+<input type="radio" name="category" value="Both" />Both &#128094; &#8986;<br>
+</div>
+</div>
+<br>
+<div style="padding-right: 11.5%">
+Select price range:
+<select name = "price" size = "1">
+	<option value = "num1"> 500-1000 </option>
+	<option value = "num2"> 1000-1500 </option>
+	<option value = "num3"> 1500-2000 </option>
+	
+</select>
+</div>
+<br>
+<input type="submit" value="Submit" >
+<input type="reset">
+</form>
+</div>
+<div id="info">
+<ul>
+<li><a href="https://www.instagram.com/shashank_garg_/?hl=en" class="fa fa-instagram" target="_blank"></a></li>
+<li><a href="https://bit.ly/2CjPEYW" class="fa fa-linkedin" target="_blank"></a></li>
+<li><a href="https://twitter.com/sg24101999" class="fa fa-twitter" target="_blank"></a></li>
+<li><a href="https://www.facebook.com/shashank.garg.560" class="fa fa-facebook" target="_blank"></a>
+</ul>
+</div>
+<footer>
+<p style="padding: .5%">SUGGESTAZA</p>
+<div info="ins">
+<p>One stop for:</p>
+<p>Shoes recommendations</p>
+<p>Wrist-watch recommendations</p>
+</div>
+</footer>
+</body>
+</html>
